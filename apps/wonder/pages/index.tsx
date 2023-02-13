@@ -1,5 +1,5 @@
-import { Button } from '@discover';
 import styled from 'styled-components';
+import Hero from '../components/hero/Hero';
 
 
 const StyledPage = styled.div`
@@ -10,7 +10,7 @@ const StyledPage = styled.div`
 export function Index() {
   return (
     <StyledPage>
-      <Button/>
+      <Hero />
     </StyledPage>
   );
 }

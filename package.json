@@ -2,9 +2,13 @@
   "name": "wonder",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npm run start:wonder",
+    "start:wonder": "npx nx serve wonder --configuration=development --verbose"
+  },
   "private": true,
   "dependencies": {
+    "@next/font": "^13.1.6",
     "@nrwl/next": "15.6.3",
     "next": "13.1.1",
     "react": "18.2.0",

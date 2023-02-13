@@ -6,7 +6,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to wonder!</title>
+        <title>Andres Rivera - wonder!</title>
+        <link rel="stylesheet" href="https://use.typekit.net/cis0lln.css"></link>
       </Head>
       <main className="app">
         <Component {...pageProps} />
