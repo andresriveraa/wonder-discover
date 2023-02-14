@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { StepStyleI } from './Step.models';
-import { orange, primaryFont } from '@discover';
+import { orange, orange900, primaryFont } from '@discover';
 
 const cardStyle = css`
   box-shadow: 3px 4px 14px grey;
@@ -21,7 +21,7 @@ const textStyle = css`
 const dayTextStyle = css`
   flex-direction: column;
   justify-content: center;
-  color: ${orange};
+  color: ${orange900};
   display: flex;
   text-align: end;
 
@@ -49,7 +49,7 @@ const WpStep = styled.div<StepStyleI>`
       flex-direction: ${({ subtitle }) => subtitle && 'column'};
       align-items: ${({ subtitle }) => !subtitle && 'center'};
       justify-content: ${({ subtitle }) => subtitle && 'center'};
-      h4 {
+      h3 {
 
         margin: 0;
         margin-bottom: ${({ subtitle }) => (subtitle ? '16px' : '0')};

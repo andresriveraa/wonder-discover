@@ -5,10 +5,11 @@ const WpFooter = styled.footer`
   background-color: ${cream};
 
   hr {
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 40px;
     border: 1px solid transparent;
     border-top: 1px solid gray;
+    max-width: 80%;
   }
 
   .footer {

@@ -4,7 +4,7 @@ import WpHero from './Hero.styles';
 
 import { Abril_Fatface } from '@next/font/google';
 
-const Abril = Abril_Fatface({ weight: '400', subsets: ['latin'] });
+const Abril = Abril_Fatface({ weight: '400', subsets: ['latin'], preload: false});
 
 export const Index = () => {
   return (
@@ -15,9 +15,11 @@ export const Index = () => {
           alt="Foto de cerros de mavecure, dos montañas rocosas que las atraviesa un rio"
           width={240}
           height={67}
+          placeholder='blur'
+          blurDataURL='/assets/images/hero/cerros-de-mavecure-BLUR.jpg'
         />
-        <div className="Hero__black-gradient"></div>
       </figure>
+      <div className="Hero__black-gradient"></div>
       <figure className="Hero__logo">
         <Image
           src="/assets/images/global/wonder-logo.svg"

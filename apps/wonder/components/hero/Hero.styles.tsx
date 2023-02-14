@@ -1,20 +1,19 @@
-import { primaryFont, white } from '@discover';
+import { black, primaryFont, white } from '@discover';
 import styled from 'styled-components';
 
 
 const WpHero = styled.header`
-    background-color: black;
   position: relative;
-  z-index: -1;
 
   .Hero {
     &__background-image {
       position: absolute;
-      width: 100vw;
-      height: 100vh;
+      top: 0;
+      width: 100%;
+      height: 100%;
       margin: 0;
       z-index: -1;
-      img {
+      img { 
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -23,6 +22,7 @@ const WpHero = styled.header`
 
     &__black-gradient {
       position: absolute;
+      z-index: -1;
       bottom: 0;
       top: 0;
       width: 100%;
@@ -33,8 +33,9 @@ const WpHero = styled.header`
     &__logo {
       display: flex;
       padding-top: 164px;
-      margin-bottom: 150px;
+      padding-bottom: 150px;
       justify-content: center;
+      margin: 0;
     }
 
     &__title {
@@ -44,6 +45,7 @@ const WpHero = styled.header`
       line-height: 38px;
       margin-bottom: 16px;
       padding: 28px;
+
     }
 
     &__separator {
@@ -64,6 +66,7 @@ const WpHero = styled.header`
 
     &__info-time {
       margin-bottom: 24px;
+
     }
 
     &__place {

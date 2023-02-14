@@ -31,7 +31,7 @@ export default class CustomDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang='es'>
         <Head>{this.props.styles}</Head>
         <body>
           <Main />

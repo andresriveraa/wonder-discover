@@ -12,7 +12,7 @@ export const Step = ({ type, title, subtitle, text, urlIcon, highlightColor }: S
       className="step"
     >
       <div className="step__title">
-        <h4>{title}</h4>
+        <h3>{title}</h3>
         {
           subtitle && <p>{subtitle}</p>
         }

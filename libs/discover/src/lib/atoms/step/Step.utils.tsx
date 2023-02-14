@@ -38,11 +38,11 @@ export const returnIconStep = ({ type, urlIcon, highlightColor }: { type: string
             y1='-10%'
             x2={10}
             y2="60%"
-            stroke="#FF6549"
+            stroke="#FF6549" 
             strokeDasharray="5 2"
           />
           <circle cx={10} cy={40} r={10} fill="#FF6549" />
-          <image x={3} y={32} href={urlIcon} width="15" />
+          <image x={4} y={37} href={urlIcon} width="12" />
 
           <line
             x1={10}
@@ -83,7 +83,7 @@ export const returnIconStep = ({ type, urlIcon, highlightColor }: { type: string
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle cx={10} cy={40} r={10} fill={highlightColor ? highlightColor :"#FF6549"} />
-          <image x={3} y={32} href={urlIcon} width="15" />
+          <image x={4} y={34} href={urlIcon} width="12" />
 
         </svg>
       )
@@ -105,7 +105,7 @@ export const returnIconStep = ({ type, urlIcon, highlightColor }: { type: string
             strokeDasharray="5 2"
           />
           <circle cx={10} cy={40} r={10} fill={highlightColor ? highlightColor :"#FF6549"} />
-          <image x={3} y={32} href={urlIcon} width="15" />
+          <image x={3} y={36} href={urlIcon} width="13" />
 
         </svg>
       )
