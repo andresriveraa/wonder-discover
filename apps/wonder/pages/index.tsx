@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Footer from '../components/footer/Footer';
 import Hero from '../components/hero/Hero';
 import StepByStep from '../components/stepByStep/stepByStep';
 
@@ -13,6 +14,7 @@ export function Index() {
     <StyledPage>
       <Hero />
       <StepByStep />
+      <Footer />
     </StyledPage>
   );
 }

@@ -8,8 +8,8 @@ import { StepI } from 'libs/discover/src/lib/atoms/step/Step.models';
 const StepByStep = () => {
   return (
     <WpStepByStep>
-      <p>
-        Wonder Travel es la plataforma que conecta viajeros con anfitriones en
+      <p className='steps__title'>
+        Wonder Travel es la plataforma que conecta viajeros <br /> con anfitriones en
         lugares mágicos de Colombia
       </p>
       <Image
@@ -18,13 +18,15 @@ const StepByStep = () => {
         src="/assets/images/steps/hero-steps.svg"
         width={300}
         height={78}
+        className="steps__image-1"
       />
       <Image
         alt=""
         role="none"
         src="/assets/images/steps/person-hiking.svg"
-        width={300}
-        height={78}
+        width={49}
+        height={40}
+        className="steps__image-2"
       />
 
       <div className="steps__header">
@@ -34,9 +36,9 @@ const StepByStep = () => {
           <Image
             alt=""
             role="none"
-            src="/assets/images/hero/compass.svg"
-            width={300}
-            height={78}
+            src="/assets/images/global/fly-icon.svg"
+            width={16}
+            height={16}
           />
         </div>
       </div>
@@ -59,6 +61,7 @@ const StepByStep = () => {
         }
 
       </div>
+
       <p className="steps__text-end">Regreso a <br /> ciudad de origen</p>
 
     </WpStepByStep>

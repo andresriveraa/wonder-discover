@@ -36,6 +36,7 @@ export const Index = () => {
       <Button
         text="4 días, 3 noches"
         className="Hero__info-time"
+        type='secondary'
         Icon={() => (
           <Image
             src="/assets/images/global/fly-icon.svg"

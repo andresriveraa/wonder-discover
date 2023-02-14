@@ -103,6 +103,10 @@ const WpHero = styled.header`
     &__whatsapp {
       color: white;
       text-align: center;
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 12px;
+
     }
 
     &__whatsapp-cta {
