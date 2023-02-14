@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Footer from '../components/footer/Footer';
-import Hero from '../components/hero/Hero';
 import StepByStep from '../components/stepByStep/StepByStep';
+import Hero from '../components/hero/Hero';
 
 
 const StyledPage = styled.div`
